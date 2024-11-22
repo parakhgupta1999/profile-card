@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <title>PROFILE id</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: #f4f4f4;
+    }
+
+    .profile-card {
+        max-width: 250px;
+        background: #fff;
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 5px 10px rebeccapurple;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    img {
+        height: 80px;
+        border-radius: 100%;
+        background-color: aqua;
+        position: relative;
+        border: 2px solid blue;
+        margin-bottom: 10px;
+    }
+
+    .imag .img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #fff;
+    }
+
+    .profile-card .text-data {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .text-data .name {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .text-data .job {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .profile-card .media-buttons {
+        display: flex;
+        align-items: center;
+        margin-top: 12px;
+    }
+
+    .media-buttons .link {
+        margin: 0 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 18px;
+        background-color: #4070f4;
+        text-decoration: none;
+        height: 34px;
+        width: 34px;
+        border-radius: 50%;
+
+    }
+
+    .profile-card .buttons {
+        display: flex;
+        flex-direction: row;
+        padding: 0px 20px;
+        /* margin: 10px 10px; */
+        margin-top: 14px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        padding: 8px 15px;
+        margin: 0px 15px;
+        background-color: #4070f4;
+        color: wheat;
+        border-radius: 25px;
+        font-size: 14px;
+        font-weight: 400px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3 ease-in;
+    }
+
+    .buttons .button:hover {
+        background-color: turquoise;
+    }
+
+    .profile-card .heart {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin-top: 15px;
+        margin-right: 2px;
+    }
+
+    .heart .data {
+        padding: 0px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 4px 1px;
+        border-right: 2px solid #e7e7e7;
+    }
+</style>
+
+<body>
+    <div class="profile-card">
+        <div class="imag">
+            <img src="pp.jpg" alt="">
+        </div>
+        <div class="text-data">
+            <p class="name">Coding ke liy</p>
+            <p class="job">Youtube & codes </p>
+        </div>
+        <div class="media-buttons">
+            <a href="#" style="background: #4267b2;" class="link">
+                <i class='bx bxl-tiktok'></i>
+            </a>
+            <a href="#" style="background:#1da1f2
+             ;" class="link">
+                <i class='bx bxl-instagram-alt'></i>
+            </a>
+            <a href="#" style="background:#e1306c ;" class="link">
+                <i class='bx bxl-facebook-circle'></i>
+            </a>
+            <a href="#" style="background:#ff0000 ;" class="link">
+                <i class='bx bxl-twitter'></i>
+            </a>
+
+        </div>
+        <div class="buttons">
+            <button class="button">Subscribe</button>
+            <button class="button">Message</button>
+        </div>
+        <div class="heart">
+            <div class="data">
+                <i class='bx bx-happy-heart-eyes'></i>
+                <span class="number">60k</span>
+            </div>
+            <div class="data">
+                <i class='bx bx-dislike'><span class="number">20k</span></i>
+            </div>
+            <div class="data"><i class='bx bx-message-dots'></i> <span class="number">40k</span>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
